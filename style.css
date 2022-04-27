@@ -1,0 +1,621 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html
+{
+	font-size: 15px;
+}
+
+
+/*
+--------------------------------
+			ABOUT ME
+--------------------------------
+*/
+.aboutMe {
+  margin: 100px 0px;
+}
+
+.aboutMe .left-content h4 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+
+.aboutMe .right-content {
+  margin-left: 30px;
+}
+
+.aboutMe .right-content h5 i {
+  color: #2a2a2a;
+  margin-right: 5px;
+}
+
+.aboutMe .right-content h5 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #2a2a2a;
+  margin-bottom: 25px;
+}
+
+.aboutMe .right-content p {
+  font-size: 19px;
+  color: #2a2a2a;
+  line-height: 30px;
+  font-weight: 300;
+  display: block;
+  margin: 0.8em 0 11px 1.1em;
+}
+
+/*
+--------------------------------
+	  EDUCATION AND EXPERIENCE
+--------------------------------
+*/
+/*time circle*/
+.timeC {
+  position: relative;
+  padding: 28px 0;
+}
+.timeC:last-child:before {
+  height: 0;
+}
+.timeC:before {
+  content: "";
+  background: #474559;
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 38px;
+}
+
+.timeYr {
+  background: #474559;
+  border-radius: 100%;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+.timeYr span {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  line-height: 75px;
+}
+
+.timeline-info {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 432px;
+  margin-left: 6em;
+}
+.timeline-info small {
+  color: #474559;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+/*
+--------------------------------
+	  				HOBBIES
+--------------------------------
+*/
+
+#hobbies 
+{
+	padding: 0 4em 0 25px;
+}
+
+.hob
+{
+	text-align: center;
+}
+
+.hob p
+{
+	text-align: left;
+	font-size: 14px;
+	margin: 0 4em 0 4em;
+}
+
+.hob img
+{
+	width: 200px;
+	height: 150px;
+}
+
+
+
+.card img
+{
+	width: 200px;
+	height: 200px;
+}
+
+
+
+.abt p
+{
+	padding: 0 6em 1em 6em;
+}
+
+/*
+--------------------------------
+					CONTACT ME
+--------------------------------
+*/
+#contact {
+  padding-top: 0px;
+}
+
+#contact-content {
+  padding: 80px 60px;
+}
+
+#contact input {
+  border-radius: 0px;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #aaa;
+  background-color: #f4f4f4;
+  border: 1px solid #eee;
+  outline: none;
+  box-shadow: none;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#contact textarea {
+  border-radius: 0px;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #aaa;
+  background-color: #f4f4f4;
+  border: 1px solid #eee;
+  outline: none;
+  box-shadow: none;
+  height: 200px;
+  max-height: 250px;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+
+#contact button {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  /*text-transform: capitalize;*/
+  background-color: #45489a;
+  display: inline-block;
+  height: 44px;
+  line-height: 24px;
+  outline: none;
+  box-shadow: none;
+  width: 50%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#contact button:hover {
+  color: #232323;
+  background-color: #f4f4f4;
+}
+
+
+/*
+-------------------------
+		GALLERY PAGE CSS
+-------------------------
+*/
+
+.main-banner {
+  background-image: url(views/gIntro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 270px 0px 210px 0px;
+  position: relative;
+}
+
+.main-banner h2 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+/*AFRICA 4 SDGs SECTION*/
+.sdg
+{
+	background-color: rgb(33, 37, 41);
+	color: white;
+  overflow: hidden;
+}
+.sdg-text
+{
+  margin: 1em 4em;
+}
+
+.sdgSlides img
+{
+	width: 100%;
+	height: 75vh;
+}
+
+.sdg section
+{
+  margin: 2em;
+}
+
+/*Comic Book Section*/
+.comic
+{
+  background-color: rgb(40, 40, 40);
+  overflow: hidden;
+}
+
+.comic img 
+{
+  height: 90vh;
+  width: 180vh;
+  margin: 2em;
+}
+
+
+/*WALL ART SECTION*/
+
+.paint 
+{
+  background-color: #383838;
+  color: #fff;
+  overflow: hidden;
+}
+.wArt
+{
+	height:80vh;
+	background-color: black;
+	position: relative;
+}
+.wArt img
+{
+	width: 100%;
+	height: inherit;
+	object-fit: cover;
+	z-index: 1000;
+}
+
+.wArt .paintPic img
+{
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	z-index: 500;
+	right: 0.5em;
+	bottom: 0.5em;
+	border-radius: 15px;
+}
+
+.wAteam img
+{
+	width: 350;
+	height: 250;
+	object-fit: cover;
+}
+
+/*Agile*/
+
+.agile
+{
+  background-color: rgb(40, 40, 40);
+  color: #fff;
+  overflow: hidden;
+}
+
+.agile img
+{
+	width: 100%;
+	height: 100%;
+}
+
+/*Kibera NN*/
+
+.knn
+{
+  background-color: rgb(33, 37, 41);
+  color: #fff;
+}
+.knn a
+{
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+}
+
+/*
+-------------------------
+		ARTICLES CSS
+-------------------------
+*/
+.a1
+{
+  /*background-color: rgba(0, 17, 28, 0.8);*/
+  color: rgba(0, 0, 0, 1.5);
+}
+
+.a1 h1
+{
+  font-style: italic;
+  font-weight: 350;
+  font-family: 'Abril Fatface', cursive;
+  color: rgba(62, 31, 71, 0.8);
+  word-spacing: 3px;
+}
+
+.a1 p 
+{
+  padding-left: 2em;
+  letter-spacing: .5px;
+  word-spacing: 0.8px;
+}
+
+/*Action Day*/
+
+.ad
+{
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-style: italic;
+	background-color: black;
+	color: white;
+	margin: auto;
+}
+
+.actDay span 
+{
+	color: teal;
+	font-family: serif;
+	font-weight: 900;
+}
+
+.actDay .p-1 
+{
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 400;
+}
+
+/*Disastrous Development*/
+
+.quote {
+    position: relative;
+    letter-spacing: .02em;
+    margin-bottom: .5rem;
+}
+
+.quote--container {
+    line-height: 1.3em;
+    font-size: 17px;
+    margin: 1rem auto 0;
+    width: 33em;
+    padding-bottom: .5rem;
+}
+
+.quote--highlight {
+    color: rgba(193, 0, 0, 1);
+}
+
+.quote--author {
+    font-size: 1rem;
+    text-align: right;
+    font-weight: 300;
+}
+
+
+/*VM Art Exibit Article*/
+#vmArticle .row 
+{
+  padding: 1.5em;
+  margin-bottom: 0;
+}
+
+/*
+-------------------------
+      FOOTER
+-------------------------
+*/
+
+.footer-distributed
+{
+  background: #0b0d16;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  overflow: hidden;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left
+{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3
+{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span
+{
+  color:  rgba(59, 34, 138, 5);
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #fff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 75px 26em 0 0;
+  text-align: center;
+}
+
+.footer-distributed .footer-company-name a
+{
+  text-decoration: none;
+  color: rgba(59, 34, 138, 5);
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center
+{
+  width: 35%;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right
+{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about
+{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span
+{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons
+{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a
+{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) 
+{
+
+  .footer-distributed
+  {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right
+  {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i
+  {
+    margin-left: 0;
+  }
+
+}
+
+
+
+/*
+Extra small (xs) devices (potrait phones, less than 576px)
+No media query since this is the default in bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) {...}
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {...}
+*/
